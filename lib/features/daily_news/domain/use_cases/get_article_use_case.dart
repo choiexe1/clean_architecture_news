@@ -9,7 +9,7 @@ class GetArticleUseCase implements UseCase<Result<List<ArticleEntity>>, void> {
   GetArticleUseCase(this._articleRepository);
 
   @override
-  Future<Result<List<ArticleEntity>>> call({void params}) {
+  Future<Result<List<ArticleEntity>>> call({void params}) async {
     return _articleRepository.getNewsArticles();
   }
 }

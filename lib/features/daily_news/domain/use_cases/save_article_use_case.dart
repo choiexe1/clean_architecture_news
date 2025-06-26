@@ -8,7 +8,7 @@ class SaveArticleUseCase implements UseCase<void, ArticleEntity> {
   const SaveArticleUseCase(this._articleRepository);
 
   @override
-  Future<void> call({ArticleEntity? params}) {
+  Future<void> call({ArticleEntity? params}) async {
     return _articleRepository.saveArticle(params!);
   }
 }
