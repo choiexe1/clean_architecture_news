@@ -7,7 +7,6 @@ import 'package:clean_architecture_daily_news/features/daily_news/domain/use_cas
 import 'package:clean_architecture_daily_news/features/daily_news/domain/use_cases/get_saved_articles_use_case.dart';
 import 'package:clean_architecture_daily_news/features/daily_news/domain/use_cases/save_article_use_case.dart';
 import 'package:clean_architecture_daily_news/features/daily_news/presentation/bloc/article/local/local_article_bloc.dart';
-import 'package:clean_architecture_daily_news/features/daily_news/presentation/bloc/article/local/local_article_event.dart';
 import 'package:clean_architecture_daily_news/features/daily_news/presentation/bloc/article/remote/remote_article_bloc.dart';
 import 'package:dio/dio.dart';
 import 'package:get_it/get_it.dart';
